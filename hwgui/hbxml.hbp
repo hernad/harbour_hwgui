@@ -1,0 +1,15 @@
+#
+# $Id: hbxml.hbp 2086 2013-06-23 12:57:56Z alkresin $
+#
+
+-inc
+
+-hblib
+-olib/hbxml
+
+-n -q0 -w -es2
+
+-iinclude
+
+source/common/xml/*.c
+source/common/xml/*.prg
